@@ -1,0 +1,426 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none; 
+    text-decoration: none;
+    text-transform: capitalize;
+
+}
+header{
+    position: fixed;
+    background-color: black;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header .logo{
+color: white;
+font-size: 1.5rem;
+font-weight: 700;
+text-decoration: none;
+}
+header .navbar a{
+    font-size: 1rem;
+    padding: 0 1.5rem;
+    color: white;
+    text-decoration: none;
+}
+header .icons a{
+    font-size: 1rem;
+    color: white;
+    margin-left: 1.5rem;
+    text-decoration: none;
+}
+section{
+    padding: 2rem 9%;
+}
+.main{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url(./images/pizza.jpg) no-repeat;
+    background-size: cover;
+    
+}
+.main .content{
+    max-width: 50rem;
+}
+.main .content h1{
+font-size: 6rem;
+color: white;
+}
+.peragraph{
+    width: 50%;
+    color: white;
+    
+}
+.main div .line{
+    width: 25rem;
+    height: 0.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+background-color: brown;
+}
+.about{
+align-items: center;
+    background-color: black;
+    min-height: 70vh;
+}
+.content_1{
+    display: flex;
+    gap: 5rem;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    
+}
+.heading_1{
+    justify-items: center;
+
+}
+.about .heading_1 .line_1{
+    width: 20rem;
+    height: 0.5rem;
+    background-color: brown;
+}
+.line_2{
+    width: 25rem;
+    height: 0.2rem;
+    /* margin: 1rem; */
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+background-color: brown;
+}
+.peragraph_1{
+    width: 45%;
+    color: white;
+}
+.image_1{
+    width: 25rem;
+    height: 20rem;
+}
+.menu{
+    align-items: center;
+        background-color: black;
+        min-height: 100vh;
+    }
+    .content_2{
+        display: flex;
+        margin: 5rem;
+    }
+.menu .heading_1 .line_1{
+    width: 20rem;
+    height: 0.5rem;
+    background-color: brown;
+}
+.peragraph_2{
+    color: white;
+    margin: 2rem;
+}
+.image_2{
+    width: 20rem;
+    height: 13rem;
+}
+.heading_2{
+    color: rgb(230, 230, 11);
+    margin: 2rem;
+}
+.peragraph_3{
+    color: white;
+    width: 15rem;
+    line-height: 1.5rem;
+    margin: 2rem;
+}
+.heading_1{
+    justify-items: center;
+
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    
+}
+.carousel .heading_1 .line_1{
+    width: 20rem;
+    height: 0.5rem;
+    background-color: brown;
+    margin: 1rem;
+}
+.carousel{
+    align-items: center;
+        background-color: black;
+        min-height: 40vh;
+    }
+    
+   
+   
+    /* .slider{
+        position: relative;
+        width: 70%;
+        height: 50%;
+        overflow: hidden;
+        margin-top: 5rem;
+        left: 13rem;
+    }
+    .images{
+        display: flex;
+        width: 100%;
+    }
+    .images img{
+        height: 600px;
+        width: 100%;
+        transition: all 0.15s ease;
+    }
+    .images input{
+        display: none;
+    }
+    .dots{
+        display: flex;
+        justify-content: center;
+        margin: 1rem;
+    } */
+    /* .dots label{
+        height: 1rem;
+        width: 1rem;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        cursor: pointer;
+        transition: all 0.15s ease;
+        margin: 0.2rem;
+    }
+    .dots label:hover{
+        background-color: #fff;
+    }
+    #img1:checked ~ .m1{
+        margin-left: 0%;
+    }
+    #img2:checked ~ .m2{
+        margin-left: -100%;
+    }
+    #img3:checked ~ .m3{
+        margin-left: -200%;
+    }
+    #img4:checked ~ .m4{
+        margin-left: -300%;
+    } */
+    /* .previous{
+        color: white;
+        font-size: 3rem;
+    }
+    .next{
+        color: white;
+        font-size: 3rem;
+        margin-left: 35rem;
+    } */
+   
+    .gallary .heading_1 .line_1{
+        width: 20rem;
+        height: 0.5rem;
+        background-color: brown;
+        margin: 1rem;
+    }
+    .gallary{
+        align-items: center;
+            background-color: black;
+        }
+        .image_6{
+width: 15rem;
+height: 11.2rem;
+        }
+   .image_4{
+    width: 40rem;
+   }
+   .image_5{
+    width: 100rem;
+    height: 20rem;
+    border-left: 0.3rem solid black;
+   }
+   .all_images{
+    display: flex;
+    width: 100rem;
+    margin-top: 5rem;
+}
+.find_us .heading_1 .line_1{
+    width: 20rem;
+    height: 0.5rem;
+    background-color: brown;
+    margin: 1rem;
+}
+.find_us{
+    align-items: center;
+        background-color: black;
+        height: 100vh;
+    }
+    .content_3{
+        margin: 1rem;
+        gap: 5rem;
+        display: flex;
+        justify-content: space-between;
+        /* height: 100rem; */
+    }
+    .image_7{
+        width: 30rem;
+        height: 10rem;
+    }
+    
+   
+    
+    @media screen and (max-width:500px) {
+       .content_1{
+        flex-direction: column;
+       } 
+    }
+    @media screen and (max-width:700px) {
+       .content_1{
+        flex-direction: column;
+       } 
+    }
+    @media screen and (max-width:500px) {
+        .content_2{
+         flex-direction: column;
+        } 
+     }
+    @media screen and (max-width:750px) {
+       .content_2{
+        flex-direction: column;
+       } 
+    }
+
+    @media screen and (max-width:500px) {
+        .image_4{
+         width: 15%;
+        } 
+     }
+    @media screen and (max-width:700px) {
+        .image_4{
+         width: 25%;
+        } 
+     }
+   
+    @media screen and (max-width:700px) {
+       .all_images{
+        flex-direction: column;
+        width: fit-content;
+        overflow: hidden;
+       } 
+    }
+    @media screen and (max-width:500px) {
+       .image_5{
+        flex-direction: column;
+        overflow-x: hidden;
+       } 
+    }
+    @media screen and (max-width:700px) {
+       .image_5{
+        flex-direction: column;
+        overflow-x: hidden;
+       } 
+    }
+    @media screen and (max-width:500px) {
+       .find_us{
+        flex-direction: column;
+        height: fit-content;
+
+       } 
+    }
+    @media screen and (max-width:750px) {
+        .find_us{
+         flex-direction: column;
+         height: fit-content;
+        } 
+     }
+    @media screen and (max-width:1100px) {
+        .find_us{
+         flex-direction: column;
+         height: fit-content;
+        } 
+     }
+    @media screen and (max-width:1365px) {
+        .find_us{
+         flex-direction: column;
+         height: fit-content;
+        } 
+     }
+     @media screen and (max-width:500px) {
+        .image_7{
+width: 100%;
+        } 
+     }
+     @media screen and (max-width:750px) {
+        .image_7{
+width: 100%;
+        } 
+     }
+     @media screen and (max-width:500px) {
+        .image_6{
+width: 1%;
+        } 
+     }
+     @media screen and (max-width:700px) {
+        .image_6{
+width: 10%;
+        } 
+     }
+     @media screen and (max-width:700px) {
+        .gallary{
+width: 100%;
+overflow-x: hidden;
+        } 
+     }
+     @media screen and (max-width:500px) {
+        .main .content{
+height: 30rem;
+        } 
+     }
+     @media screen and (max-width:700px) {
+        .main .content{
+height: 30rem;
+        } 
+     }
+   
+     @media screen and (max-width:700px) {
+        .main .content h1{
+font-size: 3rem;
+        } 
+     }
+     @media screen and (max-width:700px) {
+        .main .content .peragraph{
+color: rgb(10, 20, 22);
+        } 
+     }
+     @media screen and (max-width:500px) {
+        .about img{
+width: 20rem;
+        } 
+     }
+     @media screen and (max-width:500px) {
+        .gallary{
+height: 60rem;
+        } 
+     }
+     @media screen and (max-width:500px) {
+        .gallary{
+height: 60rem;
+        } 
+     }
+  
+    
+   
+  
+   
+    
+
+   
+
+
+ 
+  
